@@ -49,7 +49,7 @@ btn[2].addEventListener("mouseover", _ => {
 const allPara = document.querySelectorAll("p");
 
 allPara[1].addEventListener("dblclick", e => {
-  allPara[1].textContent += "OUCH! STOP POKING ME";
+  allPara[1].textContent += "Oooh.";
 });
 
 //Makes sign up button functional upon double click
@@ -68,15 +68,15 @@ button.forEach(node => {
 // Bottom buttons change text after mouse out
 
 btn[0].addEventListener("mouseout", _ => {
-  btn[0].textContent = "Baby come back";
+  btn[0].textContent = "Going";
 });
 
 btn[1].addEventListener("mouseout", _ => {
-  btn[1].textContent = "you can blame it";
+  btn[1].textContent = "going";
 });
 
 btn[2].addEventListener("mouseout", _ => {
-  btn[2].textContent = "all on me";
+  btn[2].textContent = "gone";
 });
 
 //Changes text of H2 when copied
